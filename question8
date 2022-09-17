@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std ; 
+
+class Room 
+ {  int length ; 
+  int breadth ; 
+  int height  ; 
+public : 
+int  inp () 
+{ cin>> length >> breadth >>height ; 
+return 0 ; 
+} 
+ } ; 
+int main() {
+   Room room1 , room2 ;
+  
+   room2.inp () ; 
+    return 0;
+}
