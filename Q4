@@ -1,0 +1,17 @@
+#include<iostream>
+class adddistance 
+{ float inch ;
+float feet ; 
+float result ; 
+ public : 
+ int add () 
+{ cin >> inch >> feet ;
+inch = inch *0.0833; 
+result  = feet + inch ; 
+cout<<result ; 
+ } } ; 
+ int main ()
+{ adddistance a ;
+a.add () ; 
+return 0 ; 
+} 
