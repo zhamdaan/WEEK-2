@@ -1,0 +1,16 @@
+#include < iostream > 
+ using namespace std ; 
+  class student 
+{ string name  ; 
+  int roll_no ; 
+public : 
+ void func () 
+{ name =John ; 
+roll_no = 2 ; 
+} 
+} ; 
+int main () 
+{Student A ; 
+A.func () ;
+return 0 ;
+} 
